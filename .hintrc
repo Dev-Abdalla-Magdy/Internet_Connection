@@ -1,0 +1,16 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "compat-api/css": [
+      "off",
+      {
+        "ignore": [
+          "width: fit-content"
+        ]
+      }
+    ],
+    "button-type": "off"
+  }
+}
